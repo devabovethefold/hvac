@@ -50,7 +50,7 @@ export function Navbar1() {
             <img
               src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
               alt="Logo image"
-              className="invert brightness-[10]"
+              className="brightness-0 invert"
             />
           </a>
           <button

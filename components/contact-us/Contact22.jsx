@@ -1,11 +1,16 @@
-"use client";
+'use client'
 
-import React from "react";
-import { BiEnvelope, BiMap, BiMessageDetail, BiPhone } from "react-icons/bi";
+import React from 'react'
+import {
+  BiEnvelope,
+  BiMap,
+  BiMessageDetail,
+  BiPhone,
+} from 'react-icons/bi'
 
 export function Contact22() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="grid auto-cols-fr gap-x-8 gap-y-12 sm:gap-x-10 md:grid-cols-2 md:gap-y-16 lg:grid-cols-4">
           <div>
@@ -16,7 +21,8 @@ export function Contact22() {
               Email
             </h3>
             <p className="mb-5 md:mb-6">
-              Send us a message and we'll get back to you within hours.
+              Send us a message and we'll get back to you
+              within hours.
             </p>
             <a className="underline" href="#">
               hello@relume.io
@@ -30,7 +36,8 @@ export function Contact22() {
               Live chat
             </h3>
             <p className="mb-5 md:mb-6">
-              Need to talk right now? Chat with us and get answers instantly.
+              Need to talk right now? Chat with us and get
+              answers instantly.
             </p>
             <a className="underline" href="#">
               Start new chat
@@ -44,7 +51,8 @@ export function Contact22() {
               Phone
             </h3>
             <p className="mb-5 md:mb-6">
-              Call us anytime. Day or night. We pick up. That's not a maybe.
+              Call us anytime. Day or night. We pick up.
+              That's not a maybe.
             </p>
             <a className="underline" href="#">
               +1 (555) 000-0000
@@ -58,7 +66,8 @@ export function Contact22() {
               Office
             </h3>
             <p className="mb-5 md:mb-6">
-              Stop by and say hello. We're here and ready to help you out.
+              Stop by and say hello. We're here and ready to
+              help you out.
             </p>
             <a className="underline" href="#">
               123 Sample St, Sydney NSW 2000 AU
@@ -67,5 +76,5 @@ export function Contact22() {
         </div>
       </div>
     </section>
-  );
+  )
 }

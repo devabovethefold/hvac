@@ -1,27 +1,33 @@
-"use client";
+'use client'
 
-import { Button } from "@relume_io/relume-ui";
-import React from "react";
-import { RxChevronRight } from "react-icons/rx";
+import { Button } from '@relume_io/relume-ui'
+import React from 'react'
+import { RxChevronRight } from 'react-icons/rx'
 
 export function Layout419() {
   return (
-    <section id="relume" className="pt-24 md:pt-0 bg-brand-secondary text-white">
+    <section className="pt-24 md:pt-0 bg-brand-secondary text-white">
       <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-y-0">
         <div>
           <div className="md:sticky md:top-0 md:gap-y-0">
             <div className="flex flex-col items-end md:h-screen md:justify-center">
               <div className="mx-[5%] max-w-md md:ml-[5vw] md:mr-12 lg:mr-20">
-                <p className="mb-3 font-semibold md:mb-4">Work</p>
+                <p className="mb-3 font-semibold md:mb-4">
+                  Work
+                </p>
                 <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
                   What we actually do
                 </h2>
                 <p className="md:text-md">
-                  We fix what's broken. We install what's new. We keep
-                  everything running smooth with regular checkups.
+                  We fix what's broken. We install what's
+                  new. We keep everything running smooth
+                  with regular checkups.
                 </p>
                 <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-                  <Button title="Services" variant="secondary">
+                  <Button
+                    title="Services"
+                    variant="secondary"
+                  >
                     Services
                   </Button>
                   <Button
@@ -52,7 +58,8 @@ export function Layout419() {
                 AC repair
               </h3>
               <p>
-                Your air conditioner quit on you. We get it running again, fast.
+                Your air conditioner quit on you. We get it
+                running again, fast.
               </p>
             </div>
           </div>
@@ -69,7 +76,8 @@ export function Layout419() {
                 AC repair
               </h3>
               <p>
-                Your air conditioner quit on you. We get it running again, fast.
+                Your air conditioner quit on you. We get it
+                running again, fast.
               </p>
             </div>
           </div>
@@ -86,7 +94,8 @@ export function Layout419() {
                 AC repair
               </h3>
               <p>
-                Your air conditioner quit on you. We get it running again, fast.
+                Your air conditioner quit on you. We get it
+                running again, fast.
               </p>
             </div>
           </div>
@@ -103,12 +112,13 @@ export function Layout419() {
                 AC repair
               </h3>
               <p>
-                Your air conditioner quit on you. We get it running again, fast.
+                Your air conditioner quit on you. We get it
+                running again, fast.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
+  )
 }

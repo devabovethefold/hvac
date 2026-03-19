@@ -1,35 +1,35 @@
-"use client";
+'use client'
 
-import { Button, Input } from "@relume_io/relume-ui";
-import React, { useState } from "react";
+import { Button, Input } from '@relume_io/relume-ui'
+import React, { useState } from 'react'
 import {
   BiLogoFacebookCircle,
   BiLogoInstagram,
   BiLogoLinkedinSquare,
   BiLogoYoutube,
-} from "react-icons/bi";
-import { FaXTwitter } from "react-icons/fa6";
+} from 'react-icons/bi'
+import { FaXTwitter } from 'react-icons/fa6'
 
 const useForm = () => {
-  const [email, setEmail] = useState("");
-  const handleSetEmail = (event) => {
-    setEmail(event.target.value);
-  };
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log({ email });
-  };
+  const [email, setEmail] = useState('')
+  const handleSetEmail = event => {
+    setEmail(event.target.value)
+  }
+  const handleSubmit = event => {
+    event.preventDefault()
+    console.log({ email })
+  }
   return {
     email,
     handleSetEmail,
     handleSubmit,
-  };
-};
+  }
+}
 
 export function Footer1() {
-  const formState = useForm();
+  const formState = useForm()
   return (
-    <footer id="relume" className="px-[5%] py-12 md:py-18 lg:py-20 bg-brand-secondary text-white">
+    <footer className="px-[5%] py-12 md:py-18 lg:py-20 bg-brand-secondary text-white">
       <div className="container">
         <div className="grid grid-cols-1 gap-x-[8vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[0.75fr_1fr] lg:gap-y-4 lg:pb-20">
           <div className="flex flex-col">
@@ -37,11 +37,12 @@ export function Footer1() {
               <img
                 src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
                 alt="Logo image"
-                className="inline-block invert brightness-[10]"
+                className="inline-block brightness-0 invert"
               />
             </a>
             <p className="mb-5 md:mb-6">
-              Get the latest on maintenance tips and seasonal offers.
+              Get the latest on maintenance tips and
+              seasonal offers.
             </p>
             <div className="w-full max-w-md">
               <form
@@ -55,7 +56,11 @@ export function Footer1() {
                   value={formState.email}
                   onChange={formState.handleSetEmail}
                 />
-                <Button title="Subscribe" variant="secondary" size="sm">
+                <Button
+                  title="Subscribe"
+                  variant="secondary"
+                  size="sm"
+                >
                   Subscribe
                 </Button>
               </form>
@@ -66,94 +71,145 @@ export function Footer1() {
           </div>
           <div className="grid grid-cols-1 items-start gap-y-10 sm:grid-cols-3 sm:gap-x-6 md:gap-x-8 md:gap-y-4">
             <div className="flex flex-col items-start justify-start">
-              <h2 className="mb-3 font-semibold md:mb-4">Services</h2>
+              <h2 className="mb-3 font-semibold md:mb-4">
+                Services
+              </h2>
               <ul>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <span>AC repair</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <span>Heat install</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <span>Maintenance</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <span>Emergency</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <span>Inspections</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col items-start justify-start">
-              <h2 className="mb-3 font-semibold md:mb-4">Company</h2>
+              <h2 className="mb-3 font-semibold md:mb-4">
+                Company
+              </h2>
               <ul>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <span>About us</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="/contact" className="flex items-center gap-3">
+                  <a
+                    href="/contact"
+                    className="flex items-center gap-3"
+                  >
                     <span>Contact us</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <span>Service area</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <span>Testimonials</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <span>Blog</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col items-start justify-start">
-              <h2 className="mb-3 font-semibold md:mb-4">Follow us</h2>
+              <h2 className="mb-3 font-semibold md:mb-4">
+                Follow us
+              </h2>
               <ul className="flex flex-col items-start">
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <BiLogoFacebookCircle className="size-6" />
                     <span>Facebook</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <BiLogoInstagram className="size-6" />
                     <span>Instagram</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <FaXTwitter className="size-6 p-0.5" />
                     <span>X</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <BiLogoLinkedinSquare className="size-6" />
                     <span>LinkedIn</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a
+                    href="#"
+                    className="flex items-center gap-3"
+                  >
                     <BiLogoYoutube className="size-6" />
                     <span>YouTube</span>
                   </a>
@@ -164,7 +220,9 @@ export function Footer1() {
         </div>
         <div className="h-px w-full bg-white/10" />
         <div className="flex flex-col-reverse items-start justify-between pb-4 pt-6 text-sm md:flex-row md:items-center md:pb-0 md:pt-8">
-          <p className="mt-6 md:mt-0">© 2024 Relume. All rights reserved.</p>
+          <p className="mt-6 md:mt-0">
+            © 2024 Relume. All rights reserved.
+          </p>
           <ul className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 text-sm md:grid-flow-col md:gap-x-6 md:gap-y-0">
             <li className="underline">
               <a href="#">Privacy policy</a>
@@ -179,5 +237,5 @@ export function Footer1() {
         </div>
       </div>
     </footer>
-  );
+  )
 }

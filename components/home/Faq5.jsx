@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import {
   Accordion,
@@ -6,20 +6,21 @@ import {
   AccordionItem,
   AccordionTrigger,
   Button,
-} from "@relume_io/relume-ui";
-import React from "react";
-import { RxPlus } from "react-icons/rx";
+} from '@relume_io/relume-ui'
+import React from 'react'
+import { RxPlus } from 'react-icons/rx'
 
 export function Faq5() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="rb-12 mb-12 max-w-lg md:mb-18 lg:mb-20">
           <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
             FAQ
           </h2>
           <p className="md:text-md">
-            Got questions? We've heard them all. Here are the answers.
+            Got questions? We've heard them all. Here are
+            the answers.
           </p>
         </div>
         <Accordion
@@ -39,9 +40,10 @@ export function Faq5() {
               How fast do you arrive?
             </AccordionTrigger>
             <AccordionContent className="md:pb-6">
-              We aim for 30 minutes or less in most cases. Call us and we'll
-              give you a real time estimate. No waiting around wondering where
-              we are.
+              We aim for 30 minutes or less in most cases.
+              Call us and we'll give you a real time
+              estimate. No waiting around wondering where we
+              are.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
@@ -57,8 +59,9 @@ export function Faq5() {
               What's upfront pricing mean?
             </AccordionTrigger>
             <AccordionContent className="md:pb-6">
-              We tell you the cost before we touch anything. No hidden fees, no
-              surprise charges when the bill comes. You know exactly what you're
+              We tell you the cost before we touch anything.
+              No hidden fees, no surprise charges when the
+              bill comes. You know exactly what you're
               paying.
             </AccordionContent>
           </AccordionItem>
@@ -75,8 +78,8 @@ export function Faq5() {
               Do you really work nights?
             </AccordionTrigger>
             <AccordionContent className="md:pb-6">
-              Yes. 24/7, every day of the year. Your AC doesn't break on a
-              schedule, so neither do we.
+              Yes. 24/7, every day of the year. Your AC
+              doesn't break on a schedule, so neither do we.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
@@ -92,8 +95,9 @@ export function Faq5() {
               What if I need maintenance?
             </AccordionTrigger>
             <AccordionContent className="md:pb-6">
-              Regular tune-ups catch small problems before they become big ones.
-              We'll set up a schedule that works for you.
+              Regular tune-ups catch small problems before
+              they become big ones. We'll set up a schedule
+              that works for you.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
@@ -109,9 +113,9 @@ export function Faq5() {
               Do you install new systems?
             </AccordionTrigger>
             <AccordionContent className="md:pb-6">
-              Absolutely. Whether it's a new AC unit, heater, or whole system
-              replacement, we handle it all. We'll walk you through your
-              options.
+              Absolutely. Whether it's a new AC unit,
+              heater, or whole system replacement, we handle
+              it all. We'll walk you through your options.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -119,7 +123,9 @@ export function Faq5() {
           <h4 className="mb-3 text-2xl font-bold md:mb-4 md:text-3xl md:leading-[1.3] lg:text-4xl">
             Still curious?
           </h4>
-          <p className="md:text-md">Reach out anytime. We're happy to talk.</p>
+          <p className="md:text-md">
+            Reach out anytime. We're happy to talk.
+          </p>
           <div className="mt-6 md:mt-8">
             <Button title="Contact" variant="secondary">
               Contact
@@ -128,5 +134,5 @@ export function Faq5() {
         </div>
       </div>
     </section>
-  );
+  )
 }

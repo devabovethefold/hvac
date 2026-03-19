@@ -1,19 +1,24 @@
-"use client";
+'use client'
 
-import { Button } from "@relume_io/relume-ui";
-import React from "react";
-import { RxChevronRight } from "react-icons/rx";
+import { Button } from '@relume_io/relume-ui'
+import React from 'react'
+import { RxChevronRight } from 'react-icons/rx'
 
 export function Layout395() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-brand-secondary text-white">
+    <section
+      id="relume"
+      className="px-[5%] py-16 md:py-24 lg:py-28 bg-brand-secondary text-white"
+    >
       <div className="container">
         <div className="mx-auto mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
           <p className="mb-3 font-semibold md:mb-4">Fast</p>
           <h1 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
             We show up quick
           </h1>
-          <p className="md:text-md">Broken AC at 3 AM? We're rolling.</p>
+          <p className="md:text-md">
+            Broken AC at 3 AM? We're rolling.
+          </p>
         </div>
         <div className="grid auto-cols-fr grid-cols-1 gap-6 md:gap-8 lg:grid-cols-3">
           <div className="flex flex-col border border-white/10">
@@ -92,6 +97,7 @@ export function Layout395() {
                   title="Learn"
                   variant="link"
                   size="link"
+                  className="text-white"
                   iconRight={<RxChevronRight />}
                 >
                   Learn
@@ -102,5 +108,5 @@ export function Layout395() {
         </div>
       </div>
     </section>
-  );
+  )
 }
