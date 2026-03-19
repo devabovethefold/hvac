@@ -29,6 +29,7 @@ export function Layout419() {
                     variant="link"
                     size="link"
                     iconRight={<RxChevronRight />}
+                    className="text-white"
                   >
                     Explore
                   </Button>

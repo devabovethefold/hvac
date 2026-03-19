@@ -37,6 +37,7 @@ export function Layout395() {
                   variant="link"
                   size="link"
                   iconRight={<RxChevronRight />}
+                  className="text-white"
                 >
                   Learn
                 </Button>
@@ -64,6 +65,7 @@ export function Layout395() {
                   variant="link"
                   size="link"
                   iconRight={<RxChevronRight />}
+                  className="text-white"
                 >
                   Learn
                 </Button>
