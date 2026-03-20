@@ -8,7 +8,7 @@ export function Layout395() {
   return (
     <section
       id="relume"
-      className="px-[5%] py-16 md:py-24 lg:py-28 bg-brand-secondary text-white"
+      className="px-[5%] py-16 md:py-24 lg:py-28 bg-white"
     >
       <div className="container">
         <div className="mx-auto mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
@@ -21,7 +21,7 @@ export function Layout395() {
           </p>
         </div>
         <div className="grid auto-cols-fr grid-cols-1 gap-6 md:gap-8 lg:grid-cols-3">
-          <div className="flex flex-col border border-white/10">
+          <div className="flex flex-col border border-border-primary">
             <div className="flex w-full flex-col items-center justify-center self-start">
               <img
                 src="/images/hvac/hvac_home_comfort.png"
@@ -42,14 +42,13 @@ export function Layout395() {
                   variant="link"
                   size="link"
                   iconRight={<RxChevronRight />}
-                  className="text-white"
                 >
                   Learn
                 </Button>
               </div>
             </div>
           </div>
-          <div className="flex flex-col border border-white/10">
+          <div className="flex flex-col border border-border-primary">
             <div className="flex w-full flex-col items-center justify-center self-start">
               <img
                 src="/images/hvac/hvac_maintenance.png"
@@ -70,7 +69,6 @@ export function Layout395() {
                   variant="link"
                   size="link"
                   iconRight={<RxChevronRight />}
-                  className="text-white"
                 >
                   Learn
                 </Button>
@@ -97,7 +95,6 @@ export function Layout395() {
                   title="Learn"
                   variant="link"
                   size="link"
-                  className="text-white"
                   iconRight={<RxChevronRight />}
                 >
                   Learn
