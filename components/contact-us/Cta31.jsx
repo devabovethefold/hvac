@@ -7,7 +7,7 @@ export function Cta31() {
   return (
     <section
       id="relume"
-      className="px-[5%] py-16 md:py-24 lg:py-28"
+      className="px-[5%] py-16 md:py-24 lg:py-28 bg-brand-secondary text-white"
     >
       <div className="container flex flex-col items-center">
         <div className="mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
@@ -19,8 +19,8 @@ export function Cta31() {
             book online.
           </p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:mt-8">
-            <Button title="Call">Call</Button>
-            <Button title="Book" variant="secondary">
+            <Button title="Call" className="bg-white text-black border-none">Call</Button>
+            <Button title="Book" variant="secondary" className="border-white text-white">
               Book
             </Button>
           </div>

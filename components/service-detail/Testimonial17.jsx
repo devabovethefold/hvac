@@ -5,7 +5,7 @@ import { BiSolidStar } from 'react-icons/bi'
 
 export function Testimonial17() {
   return (
-    <section className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28 bg-brand-secondary text-white">
       <div className="container">
         <div className="mx-auto mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
           <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
@@ -16,7 +16,7 @@ export function Testimonial17() {
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <div className="flex w-full flex-col items-start justify-between border border-border-primary p-6 md:p-8">
+          <div className="flex w-full flex-col items-start justify-between border border-white/10 p-6 md:p-8">
             <div className="rb-5 mb-5 md:mb-6">
               <div className="mb-5 flex md:mb-6">
                 <BiSolidStar className="mr-1 size-6" />
@@ -44,7 +44,7 @@ export function Testimonial17() {
               </div>
             </div>
           </div>
-          <div className="flex w-full flex-col items-start justify-between border border-border-primary p-6 md:p-8">
+          <div className="flex w-full flex-col items-start justify-between border border-white/10 p-6 md:p-8">
             <div className="rb-5 mb-5 md:mb-6">
               <div className="mb-5 flex md:mb-6">
                 <BiSolidStar className="mr-1 size-6" />
@@ -70,7 +70,7 @@ export function Testimonial17() {
               </div>
             </div>
           </div>
-          <div className="flex w-full flex-col items-start justify-between border border-border-primary p-6 md:p-8">
+          <div className="flex w-full flex-col items-start justify-between border border-white/10 p-6 md:p-8">
             <div className="rb-5 mb-5 md:mb-6">
               <div className="mb-5 flex md:mb-6">
                 <BiSolidStar className="mr-1 size-6" />

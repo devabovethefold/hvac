@@ -12,7 +12,7 @@ import { RxPlus } from 'react-icons/rx'
 
 export function Faq5() {
   return (
-    <section className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28 bg-brand-secondary text-white">
       <div className="container">
         <div className="rb-12 mb-12 max-w-lg md:mb-18 lg:mb-20">
           <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
@@ -29,11 +29,11 @@ export function Faq5() {
         >
           <AccordionItem
             value="item-0"
-            className="border border-border-primary px-5 md:px-6"
+            className="border border-white/10 px-5 md:px-6"
           >
             <AccordionTrigger
               icon={
-                <RxPlus className="size-7 shrink-0 text-text-primary transition-transform duration-300 md:size-8" />
+                <RxPlus className="size-7 shrink-0 text-white transition-transform duration-300 md:size-8" />
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >
@@ -48,11 +48,11 @@ export function Faq5() {
           </AccordionItem>
           <AccordionItem
             value="item-1"
-            className="border border-border-primary px-5 md:px-6"
+            className="border border-white/10 px-5 md:px-6"
           >
             <AccordionTrigger
               icon={
-                <RxPlus className="size-7 shrink-0 text-text-primary transition-transform duration-300 md:size-8" />
+                <RxPlus className="size-7 shrink-0 text-white transition-transform duration-300 md:size-8" />
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >
@@ -67,11 +67,11 @@ export function Faq5() {
           </AccordionItem>
           <AccordionItem
             value="item-2"
-            className="border border-border-primary px-5 md:px-6"
+            className="border border-white/10 px-5 md:px-6"
           >
             <AccordionTrigger
               icon={
-                <RxPlus className="size-7 shrink-0 text-text-primary transition-transform duration-300 md:size-8" />
+                <RxPlus className="size-7 shrink-0 text-white transition-transform duration-300 md:size-8" />
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >
@@ -84,11 +84,11 @@ export function Faq5() {
           </AccordionItem>
           <AccordionItem
             value="item-3"
-            className="border border-border-primary px-5 md:px-6"
+            className="border border-white/10 px-5 md:px-6"
           >
             <AccordionTrigger
               icon={
-                <RxPlus className="size-7 shrink-0 text-text-primary transition-transform duration-300 md:size-8" />
+                <RxPlus className="size-7 shrink-0 text-white transition-transform duration-300 md:size-8" />
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >
@@ -102,11 +102,11 @@ export function Faq5() {
           </AccordionItem>
           <AccordionItem
             value="item-4"
-            className="border border-border-primary px-5 md:px-6"
+            className="border border-white/10 px-5 md:px-6"
           >
             <AccordionTrigger
               icon={
-                <RxPlus className="size-7 shrink-0 text-text-primary transition-transform duration-300 md:size-8" />
+                <RxPlus className="size-7 shrink-0 text-white transition-transform duration-300 md:size-8" />
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >
@@ -127,7 +127,7 @@ export function Faq5() {
             Reach out anytime. We're happy to talk.
           </p>
           <div className="mt-6 md:mt-8">
-            <Button title="Contact" variant="secondary">
+            <Button title="Contact" variant="secondary" className="bg-white text-black border-none">
               Contact
             </Button>
           </div>

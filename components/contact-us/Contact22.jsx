@@ -10,7 +10,7 @@ import {
 
 export function Contact22() {
   return (
-    <section className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28 bg-brand-secondary text-white">
       <div className="container">
         <div className="grid auto-cols-fr gap-x-8 gap-y-12 sm:gap-x-10 md:grid-cols-2 md:gap-y-16 lg:grid-cols-4">
           <div>
@@ -24,7 +24,7 @@ export function Contact22() {
               Send us a message and we'll get back to you
               within hours.
             </p>
-            <a className="underline" href="#">
+            <a className="underline text-white" href="#">
               hello@relume.io
             </a>
           </div>
@@ -39,7 +39,7 @@ export function Contact22() {
               Need to talk right now? Chat with us and get
               answers instantly.
             </p>
-            <a className="underline" href="#">
+            <a className="underline text-white" href="#">
               Start new chat
             </a>
           </div>
@@ -54,7 +54,7 @@ export function Contact22() {
               Call us anytime. Day or night. We pick up.
               That's not a maybe.
             </p>
-            <a className="underline" href="#">
+            <a className="underline text-white" href="#">
               +1 (555) 000-0000
             </a>
           </div>
@@ -69,7 +69,7 @@ export function Contact22() {
               Stop by and say hello. We're here and ready to
               help you out.
             </p>
-            <a className="underline" href="#">
+            <a className="underline text-white" href="#">
               123 Sample St, Sydney NSW 2000 AU
             </a>
           </div>
