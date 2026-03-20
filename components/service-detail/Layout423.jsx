@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import React, { useState } from 'react'
 import { RxChevronRight } from 'react-icons/rx'
 
-const useRelume = () => {
+const useAboveTheFold = () => {
   const [hoveredFeatureIdx, setHoveredFeatureIdx] =
     useState(null)
   const handleMouseEnter = index => () => {
@@ -27,7 +27,7 @@ const useRelume = () => {
 }
 
 export function Layout423() {
-  const hoverState = useRelume()
+  const hoverState = useAboveTheFold()
   return (
     <section className="px-[5%] py-16 md:py-24 lg:py-28 bg-brand-secondary text-white">
       <div className="container">

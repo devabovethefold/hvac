@@ -25,7 +25,7 @@ export function Contact22() {
               within hours.
             </p>
             <a className="underline text-white" href="#">
-              hello@relume.io
+              dev@abovethefold.biz
             </a>
           </div>
           <div>

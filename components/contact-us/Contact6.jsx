@@ -37,7 +37,7 @@ export function Contact6() {
           <div className="grid grid-cols-1 gap-4 py-2">
             <div className="flex items-center gap-4">
               <BiEnvelope className="size-6 flex-none" />
-              <p>hello@relume.io</p>
+              <p>dev@abovethefold.biz</p>
             </div>
             <div className="flex items-center gap-4">
               <BiPhone className="size-6 flex-none" />

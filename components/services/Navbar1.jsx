@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
 import { RxChevronDown } from "react-icons/rx";
 
-const useRelume = () => {
+const useAboveTheFold = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const isMobile = useMediaQuery("(max-width: 991px)");
@@ -38,10 +38,10 @@ const useRelume = () => {
 };
 
 export function Navbar1() {
-  const useActive = useRelume();
+  const useActive = useAboveTheFold();
   return (
     <section
-      id="relume"
+      id="above-the-fold"
       className="flex w-full items-center border-b border-white/10 bg-brand-secondary text-white lg:min-h-18 lg:px-[5%]"
     >
       <div className="size-full lg:flex lg:items-center lg:justify-between">

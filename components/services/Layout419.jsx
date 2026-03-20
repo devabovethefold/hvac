@@ -6,7 +6,7 @@ import { RxChevronRight } from "react-icons/rx";
 
 export function Layout419() {
   return (
-    <section id="relume" className="pt-24 md:pt-0 bg-white">
+    <section id="above-the-fold" className="pt-24 md:pt-0 bg-white">
       <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-y-0">
         <div>
           <div className="md:sticky md:top-0 md:gap-y-0">
