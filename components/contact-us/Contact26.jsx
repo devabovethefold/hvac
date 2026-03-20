@@ -32,7 +32,8 @@ export function Contact26() {
               Sydney
             </h3>
             <p className="text-center">
-              123 Sample St, Sydney NSW 2000 AU
+              1600 Pennsylvania Avenue NW, Washington, DC
+              20500
             </p>
             <div className="mt-5 md:mt-6">
               <Button

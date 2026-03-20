@@ -45,7 +45,10 @@ export function Contact6() {
             </div>
             <div className="flex items-center gap-4">
               <BiMap className="size-6 flex-none" />
-              <p>123 Sample St, Sydney NSW 2000 AU</p>
+              <p>
+                1600 Pennsylvania Avenue NW, Washington, DC
+                20500
+              </p>
             </div>
           </div>
         </div>

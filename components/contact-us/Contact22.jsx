@@ -70,7 +70,8 @@ export function Contact22() {
               help you out.
             </p>
             <a className="underline text-white" href="#">
-              123 Sample St, Sydney NSW 2000 AU
+              1600 Pennsylvania Avenue NW, Washington, DC
+              20500
             </a>
           </div>
         </div>
